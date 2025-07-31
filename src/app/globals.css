@@ -120,3 +120,7 @@
     @apply bg-background text-primary font-sans;
   }
 }
+
+.slick-track, .slick-slide .slick-slide{
+  width: 100% !important;
+}

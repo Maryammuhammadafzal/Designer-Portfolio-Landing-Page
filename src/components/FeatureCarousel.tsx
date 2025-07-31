@@ -1,9 +1,11 @@
-import React from 'react'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+"use client";
+import dynamic from 'next/dynamic';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
+import { Button } from './ui/button';
+
+const Slider = dynamic(() => import('react-slick'), { ssr: false });
 
 const FeatureCarousel = () => {
 
@@ -15,8 +17,8 @@ const FeatureCarousel = () => {
         slidesToScroll: 1,
     };
     return (
-        <div>
-            <Slider {...settings}>
+        <div className='w-full h-auto flex justify-center items-center'>
+            <Slider {...settings} className='w-full'>
                 {/* Card 1 */}
                 <div className='w-[700px] h-[360px] bg-[#D2C7F266] flex gap-6'>
 
