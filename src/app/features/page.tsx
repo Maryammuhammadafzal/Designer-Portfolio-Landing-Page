@@ -1,6 +1,8 @@
+import FeatureCarousel from '@/components/FeatureCarousel'
 import React from 'react'
 
 const FeaturesPage = () => {
+   
     return (
         <div className='w-full h-auto flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5'>
             <div className='w-full flex-col gap-10 h-full flex justify-center items-center'>
@@ -9,8 +11,8 @@ const FeaturesPage = () => {
                     <p className='capitalize text-3xl text-primary/80 text-center leading-12 max-w-sm py-3'>Here are some projects I’ve loved crafting:</p>
                 </div>
 
-                <div className='w-full h-auto flex flex-col'>
-
+                <div className='w-full h-auto min-h-[300px] flex flex-col'>
+                   <FeatureCarousel/>
                 </div>
             </div>
         </div>

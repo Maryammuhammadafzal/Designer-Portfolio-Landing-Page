@@ -8,11 +8,11 @@ import HeroPage from "./hero/Page";
 export default function Home() {
   return (
     <div className="w-full h-auto overflow-hidden">
-<HeroPage/>
-<AboutPage/>
-<FeaturesPage/>
-<HelpPage/>
-<ContactPage/>
+      <HeroPage />
+      <AboutPage />
+      <FeaturesPage />
+      <HelpPage />
+      <ContactPage />
     </div>
   );
 }
