@@ -1,3 +1,4 @@
+import { Badge } from '@/components/ui/badge'
 import Image from 'next/image'
 import React from 'react'
 
@@ -10,6 +11,13 @@ const HeroPage = () => {
                         <Image src='/images/profile-image.png' alt='image' height={120} width={120} className='rounded-full' />
                         <h1 className='text-5xl font-extrabold text-center'>{`Hello, I’m Aria`}</h1>
                         <p className='capitalize text-4xl leading-16'>a creative designer shaping visual stories.</p>
+                    </div>
+                    <div className='flex max-w-2xl gap-10 flex-wrap justify-center items-center'>
+                        <Badge variant="default" className='bg-[#FFB3004D]'>🎨 UI/UX</Badge>
+                        <Badge variant="default" className='bg-[#8DECFF54]'>✏️ Branding</Badge>
+                        <Badge variant="default" className='bg-[#F4E8D2]'>📸 Visual </Badge>
+                        <Badge variant="default" className='bg-[#C7D21659]'>😍 elegance</Badge>
+                        <Badge variant="default" className='bg-[#DE767B40]'>🙂 empathy</Badge>
                     </div>
                 </div>
             </div>
