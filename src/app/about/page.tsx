@@ -8,11 +8,11 @@ const AboutPage = () => {
                 <div className='xl:w-[856px] lg:w-[800px] md:w-[750px] h-[362px] flex justify-center items-center p-6 rounded-[20px] bg-[#F5F5F5]'>
                     <div className='w-full h-full flex gap-6'>
                         {/* Left side */}
-                        <div className='w-[40%] h-full flex justify-center items-center'>4
+                        <div className='w-[40%] h-full flex justify-center items-center'>
                             <div className='w-full h-full flex flex-col gap-3 justify-center items-center'>
                                 {/* Bussiness Card */}
-                                <div className='w-full h-[130px] relative flex justify-end items-end p-3'>
-                                    <h2 className='text-3xl font-extrabold text-center'>{`Aria Bennett`}</h2>
+                                <div className='w-full h-[130px] relative flex justify-end items-end p-3 rounded-[20px] bg-white'>
+                                    <h2 className='text-3xl font-extrabold max-w-[130px]'>{`Aria Bennett`}</h2>
                                     <div className='w-[150px] h-[150px] absolute left-2 -top-10'>
                                         <Image src='/images/profile-image.png' alt='image' height={150} width={150} className='w-full h-full' />
                                     </div>
@@ -21,13 +21,13 @@ const AboutPage = () => {
                                 {/* highlights */}
                                 <div className='flex gap-3 w-full h-[130px]'>
                                     <div className='w-[50%] h-full bg-[#EBEFAD] rounded-[20px] p-2'>
-                                        <p className='text-[#9EA715] font-bold text-lg leading-10'>
+                                        <p className='text-[#9EA715] font-bold text-lg '>
                                             🧐👀 <br />
                                             Let’s bring your next vision to life.
                                         </p>
                                     </div>
                                     <div className='w-[50%] h-full bg-[#D9F9FF] rounded-[20px] p-2'>
-                                        <p className='text-[#3CDFFF] font-bold text-lg leading-10'>
+                                        <p className='text-[#3CDFFF] font-bold text-lg '>
                                             🤩💀 <br />
                                             Crafting digital experiences
                                         </p>

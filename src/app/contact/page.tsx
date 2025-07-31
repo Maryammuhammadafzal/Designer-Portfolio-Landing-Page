@@ -9,11 +9,11 @@ const ContactPage = () => {
                 <div className='xl:w-[856px] lg:w-[800px] md:w-[750px] h-[362px] flex justify-center items-center p-6 rounded-[20px] bg-[#F5F5F5]'>
                     <div className='w-full h-full flex gap-6'>
                         {/* Left side */}
-                        <div className='w-[40%] h-full flex justify-center items-center'>4
+                        <div className='w-[40%] h-full flex justify-center items-center'>
                             <div className='w-full h-full flex flex-col gap-3 justify-center items-center'>
                                 {/* Bussiness Card */}
-                                <div className='w-full h-[200px] flex gap-3 justify-start relative items-center p-3'>
-                                    <div className='w-[124px] h-[41px] absolute flex justify-center items-center'>
+                                <div className='w-full h-[200px] flex gap-3 bg-white rounded-[20px] justify-start relative items-center p-3'>
+                                    <div className='w-[164px] h-[71px] absolute top-24 left-40 flex justify-center items-center'>
                                         <Image src='/images/badge.png' alt='image' height={124} width={41} className='w-full h-full' />
                                     </div>
                                     <div className='w-[196px] h-[196px]'>
@@ -23,9 +23,12 @@ const ContactPage = () => {
 
                                 {/* highlights */}
                                 <div className='flex gap-3 w-full h-auto'>
-                                    <div className='w-full h-full bg-[#D9F9FF] rounded-[20px] p-2'>
-                                        <p className='text-[#3CDFFF] font-bold text-lg leading-10'>
-                                            📧 aria.bennett@designmail.com
+                                    <div className='w-full h-full bg-[#D9F9FF] flex rounded-[20px] p-2'>
+                                        <p className='text-[#3CDFFF] font-bold text-lg flex leading-10'>
+                                            📧 
+                                        </p>
+                                        <p className='text-[#3CDFFF] font-bold text-base flex leading-10'>
+                                            aria.bennett@designmail.com
                                         </p>
                                     </div>
                                 </div>
@@ -33,13 +36,15 @@ const ContactPage = () => {
                         </div>
                         {/* Right side */}
                         <div className='w-[60%] h-full flex justify-center items-center'>
-                            <div className='w-full h-full'>
-                                <h2 className='text-[40px] font-extrabold text-center'>Let’s Create Something Beautiful Together</h2>
+                            <div className='w-full h-full flex flex-col gap-2 justify-center'>
+                                <h2 className='text-[40px] font-extrabold leading-12'>Let’s Create Something Beautiful Together</h2>
                                 <p className='text-foreground/40 pt-3 sm:text-base text-sm capitalize'>Have a project in mind, or just want to say hi? I’d love to hear from you.
                                 </p>
-                                <Button className='bg-[#393939] px-7 py-4 flex gap-3 text-white text-center'>
-                                    Say Hello <Image src='/images/arrow-icon.png' alt='image' height={26} width={10} className='' />
+                               <div>
+                                 <Button className='bg-[#393939] rounded-4xl px-7 py-5 flex gap-3 text-white text-center'>
+                                    Say Hello <Image src='/images/arrow-icon.png' alt='image' height={26} width={10} className='w-[26px]' />
                                 </Button>
+                               </div>
                             </div>
                         </div>
                     </div>
