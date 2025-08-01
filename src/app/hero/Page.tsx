@@ -6,7 +6,7 @@ const HeroPage = () => {
     return (
         <div className='w-full h-auto min-h-screen flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5 max-sm:px-3'>
             <div className='lg:w-[85%] md:w-[95%] w-full h-full flex justify-center items-center'>
-                <div className='flex flex-col gap-30 w-full h-full justify-center items-center'>
+                <div className='flex flex-col md:gap-30 sm:gap-24 xs:gap-18 gap-12 w-full h-full justify-center items-center'>
                     <div className='flex gap-5 flex-col justify-center items-center md:max-w-lg max-w-sm'>
                         <Image src='/images/profile-image.png' alt='image' height={120} width={120} className='rounded-full' />
                         <h1 className='sm:text-5xl xs:text-4xl text-3xl font-extrabold text-center'>{`Hello, I’m Aria`}</h1>
