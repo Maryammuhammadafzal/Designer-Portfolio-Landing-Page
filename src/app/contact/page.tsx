@@ -6,7 +6,7 @@ const ContactPage = () => {
     return (
         <div className='w-full h-auto flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5 max-sm:px-3'>
             <div className='lg:w-[85%] md:w-[95%] w-full h-full flex justify-center items-center'>
-                <div className='xl:w-[856px] lg:w-[800px] md:w-[750px] sm:h-[362px] sm:w-full w-[350px] flex justify-center items-center md:p-6 p-4 rounded-[20px] bg-[#F5F5F5]'>
+                <div className='xl:w-[856px] lg:w-[800px] md:w-[750px] sm:h-[362px] sm:w-full xs:w-[350px] flex justify-center items-center md:p-6 p-4 rounded-[20px] bg-[#F5F5F5]'>
                     <div className='w-full h-full sm:flex-row flex-col flex gap-6'>
                         {/* Left side */}
                         <div className='md:w-[40%] sm:w-[45%] w-full h-full flex justify-center items-center'>
