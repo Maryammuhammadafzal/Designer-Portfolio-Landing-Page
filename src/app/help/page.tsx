@@ -11,12 +11,12 @@ const HelpPage = () => {
                     {/* 1 */}
                     <div className='flex w-full h-auto border-b border-primary/20'>
                         <div className='w-[30%] border-r border-primary/20 flex flex-col gap-3 justify-start h-[124px] p-3'>
-                            <p className='text-2xl w-full h-full flex items-end pb-3 text-primary/70'>
+                            <p className='md:text-2xl text-xl w-full h-full flex items-end pb-3 text-primary/70'>
                                 🖥️ <br /> UI/UX Design
                             </p>
                         </div>
                         <div className='w-[40%] flex flex-col gap-3 justify-center text-center items-center h-[124px] p-3'>
-                            <p className='text-lg text-primary/70 max-w-xs'>
+                            <p className='md:text-lg text-base text-primary/70 max-w-xs'>
                                 Beautiful interfaces that feel effortless to use.
                             </p>
                         </div>
@@ -30,13 +30,13 @@ const HelpPage = () => {
                     {/* 2 */}
                     <div className='flex w-full h-auto'>
                         <div className='w-[30%] border-r border-primary/20 flex flex-col gap-3 justify-start items-center h-[124px] p-3'>
-                            <p className='text-2xl w-full h-full flex items-end pb-3 text-primary/70'>
+                            <p className='md:text-2xl text-xl w-full h-full flex items-end pb-3 text-primary/70'>
                                 🎨 <br />
                                 Brand Identity
                             </p>
                         </div>
                         <div className='w-[40%] flex flex-col gap-3 justify-center text-center items-center h-[124px] p-3'>
-                            <p className='text-lg text-primary/70 max-w-xs'>
+                            <p className='md:text-lg text-base text-primary/70 max-w-xs'>
                                 From logos to brand guidelines — your story, uniquely told.
                             </p>
                         </div>
@@ -49,13 +49,13 @@ const HelpPage = () => {
                     </div>
                     <div className='flex w-full h-auto border-t border-primary/20'>
                         <div className='w-[30%] border-r border-primary/20 flex flex-col gap-3 justify-start items-center h-[124px] p-3'>
-                            <p className='text-2xl w-full h-full flex items-end pb-3 text-primary/70'>
+                            <p className='md:text-2xl text-xl w-full h-full flex items-end pb-3 text-primary/70'>
                                 📱 <br />
                                 Mobile Design
                             </p>
                         </div>
                         <div className='w-[40%] flex flex-col gap-3 justify-center text-center items-center h-[124px] p-3'>
-                            <p className='text-lg text-primary/70 max-w-xs'>
+                            <p className='md:text-lg text-base text-primary/70 max-w-xs'>
                                 Intuitive mobile-first experiences that engage and convert.
                             </p>
                         </div>
