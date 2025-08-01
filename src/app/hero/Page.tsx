@@ -9,7 +9,7 @@ const HeroPage = () => {
                 <div className='flex flex-col gap-30 w-full h-full justify-center items-center'>
                     <div className='flex gap-5 flex-col justify-center items-center md:max-w-lg max-w-sm'>
                         <Image src='/images/profile-image.png' alt='image' height={120} width={120} className='rounded-full' />
-                        <h1 className='text-5xl font-extrabold text-center'>{`Hello, I’m Aria`}</h1>
+                        <h1 className='sm:text-5xl xs:text-4xl text-3xl font-extrabold text-center'>{`Hello, I’m Aria`}</h1>
                         <p className='capitalize md:text-4xl sm:text-3xl xs:text-2xl text-xl md:leading-12 sm:leading-10 leading-8 text-center text-primary/80'>a creative designer shaping visual stories.</p>
                     </div>
                     <div className='flex max-w-2xl gap-10 flex-wrap justify-center items-center'>
