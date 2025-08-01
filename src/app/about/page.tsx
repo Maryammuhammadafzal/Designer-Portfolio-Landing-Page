@@ -14,7 +14,7 @@ const AboutPage = () => {
                                 <div className='w-full h-[130px] relative flex justify-end items-end p-3 rounded-[20px] bg-white'>
                                     <h2 className='lg:text-3xl md:text-2xl text-xl font-extrabold lg:max-w-[130px] md:max-w-[110px] max-w-[90px]'>Aria Bennett</h2>
                                     <div className='md:w-[150px] md:h-[150px] w-[120px] h-[120px] absolute md:left-2 left-0 md:-top-10 top-0'>
-                                        <Image src='/images/profile-image.png' alt='image' height={150} width={150} className='w-full h-full' />
+                                        <Image src='/images/about-image.png' alt='image' height={150} width={150} className='w-full h-full' />
                                     </div>
                                 </div>
 
