@@ -1,10 +1,11 @@
+import Header from '@/components/Header'
 import { Badge } from '@/components/ui/badge'
 import Image from 'next/image'
 import React from 'react'
 
 const HeroPage = () => {
     return (
-        <div className='w-full h-auto min-h-screen flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5 max-sm:px-3'>
+        <div className='w-full h-auto min-h-screen flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5 max-sm:px-3 relative'>
             <div className='lg:w-[85%] md:w-[95%] w-full h-full flex justify-center items-center'>
                 <div className='flex flex-col md:gap-30 sm:gap-24 xs:gap-18 gap-12 w-full h-full justify-center items-center'>
                     <div className='flex gap-5 flex-col justify-center items-center md:max-w-lg max-w-sm'>
@@ -21,6 +22,7 @@ const HeroPage = () => {
                     </div>
                 </div>
             </div>
+            <Header/>
         </div>
     )
 }

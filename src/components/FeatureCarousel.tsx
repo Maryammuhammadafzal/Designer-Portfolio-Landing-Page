@@ -35,12 +35,12 @@ const FeatureCarousel = () => {
     ]
     return (
         <Carousel
-            // plugins={[
-            //     Autoplay({
-            //         delay: 2000,
-            //         stopOnInteraction: false,
-            //     }),
-            // ]} 
+            plugins={[
+                Autoplay({
+                    delay: 3000,
+                    stopOnInteraction: false,
+                }),
+            ]} 
             className='w-full max-h-[450px] flex'>
             <CarouselContent className="w-full">
                 {
