@@ -37,11 +37,11 @@ const ContactPage = () => {
                         {/* Right side */}
                         <div className='w-[60%] h-full flex justify-center items-center'>
                             <div className='w-full h-full flex flex-col gap-2 justify-center'>
-                                <h2 className='lg:text-[40px] md:text-4xl text-3xl font-extrabold lg:leading-12 md:leading-10 leading-9'>Let’s Create Something Beautiful Together</h2>
+                                <h2 className='lg:text-[40px] md:text-4xl sm:text-3xl text-2xl font-extrabold lg:leading-12 md:leading-10 sm:leading-9 leading-7'>Let’s Create Something Beautiful Together</h2>
                                 <p className='text-foreground/40 pt-3 sm:text-base text-sm capitalize'>Have a project in mind, or just want to say hi? I’d love to hear from you.
                                 </p>
                                <div>
-                                 <Button className='bg-[#393939] rounded-4xl px-7 py-5 flex gap-3 text-white text-center'>
+                                 <Button className='bg-[#393939] rounded-4xl sm:my-0 mt-5 px-7 py-5 flex gap-3 text-white text-center'>
                                     Say Hello <Image src='/images/arrow-icon.png' alt='image' height={26} width={10} className='w-[26px]' />
                                 </Button>
                                </div>
