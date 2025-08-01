@@ -2,6 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 
 const Header = () => {
+
+    
     return (
         <div className='w-full h-[150px] flex justify-center items-center fixed bottom-0 bg-amber-300 left-0 z-50'>
             <div className='w-fit h-auto flex justify-center items-center gap-3 bg-[#F5F5F5] px-6 py-3 rounded-[20px]'>
