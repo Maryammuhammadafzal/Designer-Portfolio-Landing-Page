@@ -6,10 +6,10 @@ const ContactPage = () => {
     return (
         <div className='w-full h-auto flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5 max-sm:px-3'>
             <div className='lg:w-[85%] md:w-[95%] w-full h-full flex justify-center items-center'>
-                <div className='xl:w-[856px] lg:w-[800px] md:w-[750px] h-[362px] flex justify-center items-center md:p-6 sm:p-4 p-2 rounded-[20px] bg-[#F5F5F5]'>
-                    <div className='w-full h-full flex gap-6'>
+                <div className='xl:w-[856px] lg:w-[800px] md:w-[750px] h-[362px] sm:w-full w-[350px] flex justify-center items-center md:p-6 p-4 rounded-[20px] bg-[#F5F5F5]'>
+                    <div className='w-full h-full sm:flex-row flex-col flex gap-6'>
                         {/* Left side */}
-                        <div className='md:w-[40%] w-[45%] h-full flex justify-center items-center'>
+                        <div className='md:w-[40%] sm:w-[45%] w-full h-full flex justify-center items-center'>
                             <div className='w-full h-full flex flex-col gap-3 justify-center items-center'>
                                 {/* Bussiness Card */}
                                 <div className='w-full h-[200px] flex gap-3 bg-white rounded-[20px] justify-start relative items-center md:p-3'>
@@ -35,7 +35,7 @@ const ContactPage = () => {
                             </div>
                         </div>
                         {/* Right side */}
-                        <div className='w-[60%] h-full flex justify-center items-center'>
+                        <div className='sm:w-[60%] w-full h-full flex justify-center items-center'>
                             <div className='w-full h-full flex flex-col gap-2 justify-center'>
                                 <h2 className='lg:text-[40px] md:text-4xl sm:text-3xl text-2xl font-extrabold lg:leading-12 md:leading-10 sm:leading-9 leading-7'>Let’s Create Something Beautiful Together</h2>
                                 <p className='text-foreground/40 pt-3 sm:text-base text-sm capitalize'>Have a project in mind, or just want to say hi? I’d love to hear from you.
