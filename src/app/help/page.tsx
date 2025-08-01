@@ -4,7 +4,7 @@ import React from 'react'
 const HelpPage = () => {
     return (
         <div className='w-full h-auto flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5 max-sm:px-3'>
-            <div className='xl:w-[60%] lg:w-[75%] md:w-[90%] w-full flex-col gap-30 h-full flex justify-center items-center'>
+            <div className='xl:w-[60%] lg:w-[75%] md:w-[90%] w-full flex-col lg:gap-30 md:gap-24 sm:gap-18 xs:gap-12 gap-7  h-full flex justify-center items-center'>
                 <h2 className='text-3xl font-extrabold text-center'>How I Can Help</h2>
 
                 <div className='w-full h-auto flex flex-col'>
