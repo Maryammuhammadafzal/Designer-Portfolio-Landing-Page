@@ -132,8 +132,8 @@
 .slick-list {
   height: 400px !important;
     width: 100% !important;
-    display: flex !important;
+    /* display: flex !important;
     flex-direction: row !important;
     justify-content: center !important;
-    align-items: center !important;
+    align-items: center !important; */
 }
