@@ -1,3 +1,4 @@
+'use client'
 import FeatureCarousel from '@/components/FeatureCarousel'
 import React from 'react'
 
@@ -11,7 +12,7 @@ const FeaturesPage = () => {
                     <p className='capitalize text-3xl text-primary/80 text-center leading-12 max-w-sm py-3'>Here are some projects I’ve loved crafting:</p>
                 </div>
 
-                <div className='w-full h-auto min-h-[300px] flex flex-col'>
+                <div className='w-auto h-auto min-h-[300px] flex'>
                    <FeatureCarousel/>
                 </div>
             </div>

@@ -121,6 +121,15 @@
   }
 }
 
-.slick-track, .slick-slide .slick-slide{
+/* .slick-track, .slick-slide .slick-slide {
   width: 100% !important;
+} */
+
+.slick-list {
+  height: 400px !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
 }

@@ -7,10 +7,10 @@ const HeroPage = () => {
         <div className='w-full h-auto min-h-screen flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5'>
             <div className='lg:w-[85%] md:w-[95%] w-full h-full flex justify-center items-center'>
                 <div className='flex flex-col gap-30 w-full h-full justify-center items-center'>
-                    <div className='flex gap-5 flex-col justify-center items-center max-w-lg'>
+                    <div className='flex gap-5 flex-col justify-center items-center md:max-w-lg max-w-sm'>
                         <Image src='/images/profile-image.png' alt='image' height={120} width={120} className='rounded-full' />
                         <h1 className='text-5xl font-extrabold text-center'>{`Hello, I’m Aria`}</h1>
-                        <p className='capitalize text-4xl leading-12 text-center text-primary/80'>a creative designer shaping visual stories.</p>
+                        <p className='capitalize md:text-4xl text-3xl leading-12 text-center text-primary/80'>a creative designer shaping visual stories.</p>
                     </div>
                     <div className='flex max-w-2xl gap-10 flex-wrap justify-center items-center'>
                         <Badge variant="default" className='text-primary/80 bg-[#FFB3004D]'>🎨 UI/UX</Badge>
