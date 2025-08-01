@@ -122,6 +122,7 @@
 }
 @theme {
   --breakpoint-xs: 27rem;
+  --breakpoint-2xs: 23rem;
 }
 
 /* .slick-track, .slick-slide .slick-slide {

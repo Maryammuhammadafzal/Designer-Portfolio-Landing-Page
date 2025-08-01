@@ -16,7 +16,7 @@ const HelpPage = () => {
                             </p>
                         </div>
                         <div className='w-[40%] flex flex-col gap-3 justify-center text-center items-center h-[124px] sm:p-3 p-1'>
-                            <p className='md:text-lg sm:text-base xs:text-sm text-xs text-primary/70 max-w-xs'>
+                            <p className='md:text-lg sm:text-base xs:text-sm 2xs:text-xs text-[10px] text-primary/70 max-w-xs'>
                                 Beautiful interfaces that feel effortless to use.
                             </p>
                         </div>
@@ -36,7 +36,7 @@ const HelpPage = () => {
                             </p>
                         </div>
                         <div className='w-[40%] flex flex-col gap-3 justify-center text-center items-center h-[124px] sm:p-3 p-1'>
-                            <p className='md:text-lg sm:text-base xs:text-sm text-xs text-primary/70 max-w-xs'>
+                            <p className='md:text-lg sm:text-base xs:text-sm 2xs:text-xs text-[10px] text-primary/70 max-w-xs'>
                                 From logos to brand guidelines — your story, uniquely told.
                             </p>
                         </div>
@@ -55,7 +55,7 @@ const HelpPage = () => {
                             </p>
                         </div>
                         <div className='w-[40%] flex flex-col gap-3 justify-center text-center items-center h-[124px] sm:p-3 p-1'>
-                            <p className='md:text-lg sm:text-base xs:text-sm text-xs text-primary/70 max-w-xs'>
+                            <p className='md:text-lg sm:text-base xs:text-sm 2xs:text-xs text-[10px] text-primary/70 max-w-xs'>
                                 Intuitive mobile-first experiences that engage and convert.
                             </p>
                         </div>
