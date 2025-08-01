@@ -120,6 +120,9 @@
     @apply bg-background text-primary font-sans;
   }
 }
+@theme {
+  --breakpoint-xs: 27rem;
+}
 
 /* .slick-track, .slick-slide .slick-slide {
   width: 100% !important;
