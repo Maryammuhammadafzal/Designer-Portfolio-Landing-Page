@@ -5,11 +5,11 @@ import React from 'react'
 const FeaturesPage = () => {
    
     return (
-        <div className='w-full h-auto flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5'>
+        <div className='w-full h-auto flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5 max-sm:px-3'>
             <div className='w-full flex-col gap-10 h-full flex justify-center items-center'>
                 <div className='head '>
                     <h2 className='text-3xl font-extrabold text-center'>Featured Work</h2>
-                    <p className='capitalize md:text-3xl text-2xl text-primary/80 text-center leading-12 max-w-sm py-3'>Here are some projects I’ve loved crafting:</p>
+                    <p className='capitalize md:text-3xl text-2xl text-primary/80 text-center md:leading-12 leading-10 max-w-sm py-3'>Here are some projects I’ve loved crafting:</p>
                 </div>
 
                 <div className='w-auto h-auto min-h-[300px] flex'>

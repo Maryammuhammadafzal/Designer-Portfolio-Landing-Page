@@ -3,9 +3,9 @@ import React from 'react'
 
 const AboutPage = () => {
     return (
-        <div className='w-full h-auto flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5'>
+        <div className='w-full h-auto flex justify-center items-center lg:py-30 md:py-15 sm:py-10 py-5 max-sm:px-3'>
             <div className='lg:w-[85%] md:w-[95%] w-full h-full flex justify-center items-center'>
-                <div className='xl:w-[856px] lg:w-[800px] md:w-[750px] h-[362px] flex justify-center items-center p-6 rounded-[20px] bg-[#F5F5F5]'>
+                <div className='xl:w-[856px] lg:w-[800px] md:w-[750px] h-[362px] flex justify-center items-center md:p-6 sm:p-4 p-2 rounded-[20px] bg-[#F5F5F5]'>
                     <div className='w-full h-full flex gap-6'>
                         {/* Left side */}
                         <div className='w-[40%] h-full flex justify-center items-center'>
@@ -13,7 +13,7 @@ const AboutPage = () => {
                                 {/* Bussiness Card */}
                                 <div className='w-full h-[130px] relative flex justify-end items-end p-3 rounded-[20px] bg-white'>
                                     <h2 className='lg:text-3xl md:text-2xl text-xl font-extrabold lg:max-w-[130px] md:max-w-[110px] max-w-[90px]'>Aria Bennett</h2>
-                                    <div className='w-[150px] h-[150px] absolute left-2 -top-10'>
+                                    <div className='md:w-[150px] md:h-[150px] w-[120px] h-[120px] absolute left-2 -top-10'>
                                         <Image src='/images/profile-image.png' alt='image' height={150} width={150} className='w-full h-full' />
                                     </div>
                                 </div>
