@@ -1,12 +1,12 @@
 "use client"
 // import dynamic from 'next/dynamic';
-import Slider from "react-slick";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+// import Slider from "react-slick";
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
 import { Button } from './ui/button';
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
-
+import Autoplay from "embla-carousel-autoplay";
 // const Slider = dynamic(() => import('react-slick'), { ssr: false });
 
 const FeatureCarousel = () => {
@@ -42,7 +42,13 @@ const FeatureCarousel = () => {
         },
     ]
     return (
-        <Carousel className='w-full max-h-[450px] flex'>
+        <Carousel
+            plugins={[
+                Autoplay({
+                    delay: 3000,
+                    stopOnInteraction: false,
+                }),
+            ]} className='w-full max-h-[450px] flex'>
             <CarouselContent className="w-full">
                 {/* Card 1 */}
                 {
