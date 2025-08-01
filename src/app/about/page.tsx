@@ -38,7 +38,7 @@ const AboutPage = () => {
                         {/* Right side */}
                         <div className='md:w-[60%] w-full h-full flex justify-center items-center'>
                             <div className='w-full h-full'>
-                                <h2 className='lg:text-[40px] md:text-4xl text-3xl font-extrabold '>More Than Just a <br /> Designer</h2>
+                                <h2 className='lg:text-[40px] md:text-4xl text-3xl font-extrabold '>More Than Just a <br className='xs:block hidden' /> Designer</h2>
                                 <p className='text-foreground/40 pt-3 sm:text-base text-sm'>Hi, I’m <span className='font-bold'>Aria Bennett</span> — a designer based in Austin, TX with a passion for meaningful visuals and clean interfaces. I blend strategy with storytelling to build elegant, intuitive, and inclusive designs.
                                     When I’m not designing, you’ll find me with a matcha latte sketching ideas in my journal, capturing moments on my film camera, or curating playlists on Spotify.
                                     </p>
