@@ -12,7 +12,7 @@ const HeroPage = () => {
                         <h1 className='sm:text-5xl xs:text-4xl text-3xl font-extrabold text-center'>{`Hello, I’m Aria`}</h1>
                         <p className='capitalize md:text-4xl sm:text-3xl xs:text-2xl text-xl md:leading-12 sm:leading-10 leading-8 text-center text-primary/80'>a creative designer shaping visual stories.</p>
                     </div>
-                    <div className='flex max-w-2xl gap-10 flex-wrap justify-center items-center'>
+                    <div className='flex max-w-2xl sm:gap-10 xs:gap-8 2xs:gap-6 gap-4 flex-wrap justify-center items-center'>
                         <Badge variant="default" className='text-primary/80 bg-[#FFB3004D]'>🎨 UI/UX</Badge>
                         <Badge variant="default" className='text-primary/80 bg-[#8DECFF54]'>✏️ Branding</Badge>
                         <Badge variant="default" className='text-primary/80 bg-[#F4E8D2]'>📸 Visual </Badge>
